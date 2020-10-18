@@ -1,0 +1,49 @@
+h1,h2 {
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 8px;
+  font-size: 1.8rem
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+
+table {
+  width: 100%;
+  border-spacing: 0px;
+  padding-bottom: 18px;
+}
+
+.main_info {
+  padding: 18px 12px;
+}
+
+tr {
+  font-size: 1.4rem;
+
+}
+tr:nth-child(odd) {
+  background-color: #222A45;
+}
+
+td {
+  white-space: pre-line;
+  vertical-align: baseline;
+  padding: 4px 0px;
+}
+
+tr > td:first-child {
+  font-weight: bold;
+  padding-left: 12px;
+
+}
+
+td + td {
+  padding-left: 6px;
+  padding-right: 12px;
+}
+

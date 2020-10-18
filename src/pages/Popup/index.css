@@ -1,0 +1,17 @@
+body {
+  width: max-content;
+
+  background: #1A2038;
+  color: #FFFFFF;
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+

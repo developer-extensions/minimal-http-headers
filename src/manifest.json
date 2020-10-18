@@ -1,0 +1,26 @@
+{
+  "name": "Minimal Http Headers",
+  "version": "1.0",
+  "description": "View http(s) headers for the current webpage request",
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "128": "icon-128.png"
+    },
+    "default_title": "Minimal Http Headers",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["<all_urls>", "webRequest"],
+  "web_accessible_resources": [
+    "icon-128.png",
+    "icon-34.png"
+  ],
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
